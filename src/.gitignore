@@ -1,0 +1,30 @@
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+
+# IDE and editor specific files (VS Code, Cursor, PyCharm, etc.)
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
+
+# System files (OS specific)
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# BookletsGo specific outputs
+# Exclude locally generated PDFs and temporary files to keep the repository clean
+*.pdf
+output/
+temp/
